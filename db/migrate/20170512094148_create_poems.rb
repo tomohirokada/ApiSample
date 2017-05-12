@@ -4,7 +4,6 @@ class CreatePoems < ActiveRecord::Migration[5.1]
       t.string :title
       t.text :content
       t.string :author
-      t.string :string
 
       t.timestamps
     end
